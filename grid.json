@@ -1,0 +1,60 @@
+{
+"P1":[
+	{"cod":"CI068",	"name":"Circuitos Lógicos",	"pre":""},
+	{"cod":"CI055", "name":"Alg I", "pre":""},
+	{"cod":"CM046", "name":"Int. Álgebra", "pre":""},
+	{"cod":"CM045",	"name":"Geometria A.", "pre":""},
+	{"cod":"CM201",	"name":"Cálculo I",	"pre":""}
+	],
+"P2":[
+	{"cod":"CI210",	"name":"Projetos Digitais",	"pre":""},
+	{"cod":"CI056",	"name":"Alg II", "pre":"CI055"},
+	{"cod":"CI067",	"name":"Oficina de Computação",	"pre":""},
+	{"cod":"CM005",	"name":"Algebra Linear", "pre":""},
+	{"cod":"CM202",	"name":"Cálculo II", "pre":""}
+	],
+"P3":[
+	{"cod":"CI212", "name":"Arquitetura de Computadores", "pre":""},
+	{"cod":"CI057", "name":"Alg III", "pre":"CI056"},
+	{"cod":"CI064", "name":"Software Básico", "pre":""},
+	{"cod":"CI237", "name":"Matemática Discreta", "pre":""},
+	{"cod":"CI166", "name":"Metodologia Científica", "pre":""}
+	],
+"P4":[
+	{"cod":"CI215", "name":"S.O", "pre":""},
+	{"cod":"CI062", "name":"TAP", "pre":""},
+	{"cod":"CE003", "name":"Estatística", "pre":""},
+	{"cod":"CI058", "name":"Redes I", "pre":"CI210"},
+	{"cod":"CI164", "name":"ICC", "pre":""}
+],
+"P5":[
+	{"cod":"CI162", "name":"Engenharia de Requisitos", "pre":""},
+	{"cod":"CI065", "name":"Teoria dos Grafos", "pre":""},
+	{"cod":"CI059", "name":"ITC", "pre":""},
+	{"cod":"CI061", "name":"Redes II", "pre":"CI058"},
+	{"cod":"SA214", "name":"TGA", "pre":""}
+],
+"P6":[
+	{"cod":"CI163", "name":"Projeto de Software", "pre":""},
+	{"cod":"CI165", "name":"Análise de Algoritmos", "pre":"CI065"},
+	{"cod":"CI209", "name":"I.A", "pre":""},
+	{"cod":"CI218", "name":"Banco de Dados", "pre":""},
+	{"cod":"CI220", "name":"Teoria de Sistemas", "pre":""}
+],
+"P7":[
+	{"cod":"CI221", "name":"Engenharia de Software", "pre":""},
+	{"cod":"CI211", "name":"Compiladores", "pre":""},
+	{"cod":"CIxxx", "name":"Optativa", "pre":""},
+	{"cod":"CIxxx", "name":"Optativa", "pre":""},
+	{"cod":"-----", "name":"TG I", "pre":""}
+],
+"P8":[
+	{"cod":"CIxxx", "name":"Optativa", "pre":""},
+	{"cod":"CIxxx", "name":"Optativa", "pre":""},
+	{"cod":"CIxxx", "name":"Optativa", "pre":""},
+	{"cod":"CIxxx", "name":"Optativa", "pre":""},
+	{"cod":"-----", "name":"TG II", "pre":""}
+]
+
+}
+		    
