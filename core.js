@@ -39,12 +39,17 @@ $(document).ready(function() {
     
     var table = document.getElementById('grid');
     $(table).blur(function() {
- 	$("button").click(function() {
+ 	$(".save").click(function() {
  	    localStorage.setItem('curriculumData', table.innerHTML);
  	    showMessage("success");
  	});
     });
     
+    $(".reset").click(function() {
+	localStorage.removeItem('curriculumData');
+   	showMessage("success");
+    });
+
     if(localStorage.getItem('curriculumData')){
 	table.innerHTML = localStorage.getItem('curriculumData');
 	$("#status").text("Loaded from localStorage.");
@@ -58,6 +63,8 @@ $(document).ready(function() {
 		}
 	    });
 	    $("#status").text("Loaded from file.");
+ 	    localStorage.setItem('curriculumData', table.innerHTML);
+	    location.reload();
 	});
     }
     
