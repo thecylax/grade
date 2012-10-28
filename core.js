@@ -75,4 +75,20 @@ $(document).ready(function() {
     $("#grid td").click(function() {
 	$(this).toggleClass("done");
     });
+
+    // Statistics
+    var total = $("#grid td").length;
+    var done  = $("#grid td.done").length;
+
+    $("#sidebar").append("<p>Total: "+total+"</p>");
+    $("#sidebar").append("<p>Restantes: "+(total-done)+" ["+(done/total*100)+"%]</p>");
+
+
+    $("#sidebar").click(function(){
+	$("#sidebar").animate({left:"20px"}, 600);
+    });
+    $("#status").click(function(){			  
+	$("#sidebar").animate({left: "120px"}, 500);
+    });
+
 });

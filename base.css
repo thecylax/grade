@@ -19,58 +19,80 @@ footer {
     padding: 5px;
 }
 
+#sidebar {
+    background: snow;
+    border-radius: 5px;
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2);
+    height: 100px;
+    left: 120px;
+    position: absolute;
+    width: 200px;
+    z-index: -1;
+}
+
+#sidebar p {
+    font-size: 11px;
+    margin: 0;
+    padding-left: 5px;
+}
+
+.header {
+    background: orange;
+    padding: 5px;
+}
+
 #grid {
     background-color: #FFFFFF;
 }
 
 #main {
-	background: none repeat scroll 0 0 #FFFFFF;
-	padding: 0 10px 10px;
+    background: none repeat scroll 0 0 #FFFFFF;
+    padding: 0 10px 10px;
 }
 
 #tbar {
-      display: inline-block;
-      position: absolute;
+    display: inline-block;
+    position: absolute;
 }
 
 #status {
-	border: 1px solid #EDEDED;
-	border-radius: 0 0 5px 0;
-	font-size: 12px;
-	padding: 5px;
-	text-align: right;
-	margin-left: 100px;	
+    border: 1px solid #EDEDED;
+    border-radius: 0 0 5px 0;
+    font-size: 12px;
+    padding: 5px;
+    text-align: right;
+    margin-left: 100px;	
 }
 
 td {
-	text-align: center;
-	width: 150px;
+    text-align: center;
+    width: 150px;
 }
 
 .cod {
-     font-size: 12px;
-     margin: 0;
+    font-size: 12px;
+    margin: 0;
 }
 
 .name {
-      font-weight: bold;
-      height: 45px;
-      margin: 0;
+    font-weight: bold;
+    height: 45px;
+    margin: 0;
 }
 
 .pre {
-     font-size: 12px;
-     height: 15px;
-     margin: 0;
-     text-align: left;
+    font-size: 12px;
+    height: 15px;
+    margin: 0;
+    text-align: left;
 }
 
 .done {
-	background-color: rgba(146, 235, 121, 0.6);
+    background-color: rgba(146, 235, 121, 0.6);
 }
 
 .active {
-	background-color: rgba(146, 235, 121, 1);
+    background-color: rgba(146, 235, 121, 1);
 }
 
 .message {
@@ -88,31 +110,31 @@ td {
 }
 
 .info{
-		 background-color: #4ea5cd;
-		 border-color: #3b8eb5;
+    background-color: #4ea5cd;
+    border-color: #3b8eb5;
 }
 
 .error{
-		 background-color: #de4343;
-		 border-color: #c43d3d;
+    background-color: #de4343;
+    border-color: #c43d3d;
 }
-		 
+
 .warning{
-		 background-color: #eaaf51;
-		 border-color: #d99a36;
+    background-color: #eaaf51;
+    border-color: #d99a36;
 }
 
 .success{
-		 background-color: #61b832;
-		 border-color: #55a12c;
+    background-color: #61b832;
+    border-color: #55a12c;
 }
 
 .message h3{
-		 margin: 0 0 5px 0;													 
+    margin: 0 0 5px 0;													 
 }
 
 .message p{
-		 margin: 0;													 
+    margin: 0;													 
 }
 
 @keyframes animate-bg {
@@ -120,6 +142,6 @@ td {
         background-position: 0 0;
     }
     to {
-       background-position: -80px 0;
+	background-position: -80px 0;
     }
 }

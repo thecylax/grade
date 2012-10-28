@@ -10,13 +10,13 @@
 	{"cod":"CI210",	"name":"Projetos Digitais",	"pre":""},
 	{"cod":"CI056",	"name":"Alg II", "pre":"CI055"},
 	{"cod":"CI067",	"name":"Oficina de Computação",	"pre":""},
-	{"cod":"CM005",	"name":"Algebra Linear", "pre":""},
-	{"cod":"CM202",	"name":"Cálculo II", "pre":""}
+	{"cod":"CM005",	"name":"Algebra Linear", "pre":"CM045"},
+	{"cod":"CM202",	"name":"Cálculo II", "pre":"CM201"}
 	],
 "P3":[
-	{"cod":"CI212", "name":"Arquitetura de Computadores", "pre":""},
+	{"cod":"CI212", "name":"Arquitetura de Computadores", "pre":"CI210"},
 	{"cod":"CI057", "name":"Alg III", "pre":"CI056"},
-	{"cod":"CI064", "name":"Software Básico", "pre":""},
+	{"cod":"CI064", "name":"Software Básico", "pre":"CI055"},
 	{"cod":"CI237", "name":"Matemática Discreta", "pre":""},
 	{"cod":"CI166", "name":"Metodologia Científica", "pre":""}
 	],
@@ -54,7 +54,5 @@
 	{"cod":"CIxxx", "name":"Optativa", "pre":""},
 	{"cod":"CIxxx", "name":"Optativa", "pre":""},
 	{"cod":"-----", "name":"TG II", "pre":""}
-]
-
-}
+]}
 		    
