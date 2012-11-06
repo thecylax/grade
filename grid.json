@@ -1,10 +1,10 @@
 {
 "P1":[
-	{"cod":"CI068",	"name":"Circuitos Lógicos",	"pre":""},
+	{"cod":"CI068",	"name":"Circuitos Lógicos", "pre":""},
 	{"cod":"CI055", "name":"Alg I", "pre":""},
 	{"cod":"CM046", "name":"Int. Álgebra", "pre":""},
 	{"cod":"CM045",	"name":"Geometria A.", "pre":""},
-	{"cod":"CM201",	"name":"Cálculo I",	"pre":""}
+	{"cod":"CM201",	"name":"Cálculo I", "pre":""}
 	],
 "P2":[
 	{"cod":"CI210",	"name":"Projetos Digitais",	"pre":""},

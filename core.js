@@ -42,6 +42,7 @@ $(document).ready(function() {
  	$(".save").click(function() {
  	    localStorage.setItem('curriculumData', table.innerHTML);
  	    showMessage("success");
+	    window.location.reload();
  	});
     });
     
@@ -79,16 +80,25 @@ $(document).ready(function() {
     // Statistics
     var total = $("#grid td").length;
     var done  = $("#grid td.done").length;
+    var percent_done = (done/total*100).toPrecision(3);
+    var todo = (total - done);
+    var percent_todo = (100-(done/total*100)).toPrecision(3);
 
-    $("#sidebar").append("<p>Total: "+total+"</p>");
-    $("#sidebar").append("<p>Restantes: "+(total-done)+" ["+(done/total*100)+"%]</p>");
+    $("#sidebar").append("<p><strong>Total: "+total+" matérias</strong></p>");
+    $("#sidebar").append("<p><strong>Concluído: "+done+" ["+percent_done+"%]</strong></p>");
+    $("#sidebar").append("<p><strong>Restantes: "+todo+" ["+percent_todo+"%]</strong></p>");
 
 
     $("#sidebar").click(function(){
-	$("#sidebar").animate({left:"20px"}, 600);
-    });
-    $("#status").click(function(){			  
-	$("#sidebar").animate({left: "120px"}, 500);
+	var pos = $(this).attr("class");
+	if (pos != "visible") {
+	    $(this).toggleClass("visible");
+	    $("#sidebar").animate({left: "20px"}, 400);
+	}
+	else {
+	    $(this).removeClass("visible");
+	    $("#sidebar").animate({left:"120px"}, 400);
+	}
     });
 
 });
