@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+
+{% block content %}
+{% if user.is_authenticated %}
+   <a href="/logout/">Logout</a>
+  {{ user }}
+{% else %}
+  <a href="/login/">Login</a>
+{% endif %}
+
+  <table id="grid" contenteditable="true">
+    <thead>
+      <tr id="period">
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="l0"></tr>
+      <tr class="l1"></tr>
+      <tr class="l2"></tr>
+      <tr class="l3"></tr>
+      <tr class="l4"></tr>
+    </tbody>
+  </table>
+  
+  <footer>
+    foot
+  </footer>
+{% endblock %}
