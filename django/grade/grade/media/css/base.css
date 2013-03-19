@@ -96,8 +96,9 @@ td {
 }
 
 .name {
+    font-size: 9pt;
     font-weight: bold;
-    height: 45px;
+    height: 55px;
     margin: 0;
 }
 
